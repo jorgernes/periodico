@@ -1,13 +1,17 @@
 
-#bg {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
+h1 {
+  color: red;
+  font-family: 'Lato',sans-serif;
+  font-size: 3em;
+  font-weight:bold;
 }
-
-
-/* body {
-  background: hassets/escHidalgo.jpg no-repeat center top;
-} */
+#fondo {
+  background-image: url(../assets/escHidalgo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 65vh;
+}
+.headers{
+  width: 100%;
+  height: 115px;
+}
