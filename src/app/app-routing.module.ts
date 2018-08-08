@@ -5,6 +5,8 @@ import { InicioComponent } from './inicio/inicio.component'
 import { GaleriaComponent } from './galeria/galeria.component'
 import { NoticiasComponent } from './noticias/noticias.component'
 import { SepComponent } from './sep/sep.component'
+import { EfemeridesComponent } from './efemerides/efemerides.component'
+
 
 const routes: Routes = [
   {
@@ -22,7 +24,13 @@ const routes: Routes = [
   {
     path: 'galeria', // se accesa /otra-ruta
     component: GaleriaComponent
+  },
+  {
+    path: 'efemerides', // se accesa /otra-ruta
+    component: EfemeridesComponent
+
   }
+  
 ]
 
 @NgModule({

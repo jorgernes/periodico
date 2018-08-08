@@ -9,6 +9,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { SepComponent } from './sep/sep.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { EfemeridesComponent } from './efemerides/efemerides.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NoticiasComponent } from './noticias/noticias.component';
     GaleriaComponent,
     InicioComponent,
     SepComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    EfemeridesComponent
   ],
   imports: [
     BrowserModule,

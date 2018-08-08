@@ -1,0 +1,29 @@
+
+
+
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+  position: relative;
+  color: #000;
+}
+
+.principal article {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border-left: 5px solid rgb(207, 202, 202);
+}
+
+.principal article p {
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.principal article .fecha {
+  color: #939393;
+}
