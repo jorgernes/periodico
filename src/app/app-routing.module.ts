@@ -10,23 +10,23 @@ import { EfemeridesComponent } from './efemerides/efemerides.component'
 
 const routes: Routes = [
   {
-    path: '', // ruta raíz
+    path: '',
     component: InicioComponent
   },
   {
-    path: 'sep', // se accesa /otra-ruta
+    path: 'sep', 
     component: SepComponent
   },
   {
-    path: 'noticias', // se accesa /otra-ruta
+    path: 'noticias',
     component: NoticiasComponent
   },
   {
-    path: 'galeria', // se accesa /otra-ruta
+    path: 'galeria', 
     component: GaleriaComponent
   },
   {
-    path: 'efemerides', // se accesa /otra-ruta
+    path: 'efemerides', 
     component: EfemeridesComponent
 
   }

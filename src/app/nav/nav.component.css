@@ -1,35 +1,43 @@
-
-ul {
-    width: 97%;
-    height: 25px;
+.barra{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(255, 0, 0) ;
     display: flex;
-    justify-content:space-between;
-    background-color: red;
-
+    justify-content: space-around;
 }
-ul li {
+.barra li {
+    display: inline; /*agregado para poner en una sola fila los links*/
     list-style-type: none;
     text-align: center; 
-    padding: 0%; 
-    margin: 0%;
 }
-ul li a { 
-    background-color: red; 
+.barra li .boton{ 
+    background-color: rgb(255, 0, 0); 
     /* border-left:2px solid #222; 
     border-right:2px solid #222; */
     text-decoration:none; 
     color: #fff;
-    box-sizing: border-box;
     font-family: 'Lato',serif;
     font-size: 20px;
+    padding: 10px;
 }
 
- ul li a:hover { 
+ .barra li .boton:hover { 
     -moz-transform:rotate(-5deg); 
     -moz-box-shadow:10px 10px 20px #000000;
     -webkit-transform:rotate(-5deg); 
     -webkit-box-shadow:10px 10px 20px #000000;
-    transform:rotate(4deg); 
+    transform:rotate(-5deg); 
     box-shadow:10px 10px 20px #000000; 
     margin-left: 10px;
+}
+
+
+/*Aquí empieza la parte responsiva de los links del sitio*/
+@media screen and (max-width: 400px){
+ .barra li{
+   display: flex;
+   flex-wrap: wrap;
+   flex:1;
+   padding: 10px 0;
+ }
 }
