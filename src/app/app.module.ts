@@ -11,8 +11,12 @@ import { SepComponent } from './sep/sep.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { EfemeridesComponent } from './efemerides/efemerides.component';
 
+
+
+
 @NgModule({
   declarations: [
+  
     AppComponent,
     NavComponent,
     FooterComponent,

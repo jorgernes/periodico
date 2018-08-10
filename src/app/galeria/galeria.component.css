@@ -1,52 +1,68 @@
-h3{
-    font-size: 20px;
-    font-family:Verdana;
-    color: #515151;
-}
-img {
-     width: 40%;
-	}
-	    
-.carousel-inner {
-      background-color: #C1E0FF;
-}
-    
-.carousel-caption {
-      font-size: 2em;
-      right: 10%;
-      left: 60%;
-      top: 30%;
-      bottom: 30%;
-      text-align: left;
-      text-shadow: none;
-     }
-.carousel-indicators{
-      font-size: 2em;
-      bottom: -1%;
-      text-align: left;
-      text-shadow: none;
-        }
-        
-/***
- * Bootstrap relies on CSS transitions for animation, which makes it
- * easy to override.  Just add the vertical class to your carousel:
- * <div class='carousel vertical'>...</div>
- ***/
+   div.gallery {
+     margin: 5px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 180px;
+   }
 
-.carousel.vertical .carousel-inner {
-  height: 100%;
-}
-.carousel.vertical .item {
-  -webkit-transition: 0.6s ease-in-out top;
-  -moz-transition:    0.6s ease-in-out top;
-  -ms-transition:     0.6s ease-in-out top;
-  -o-transition:      0.6s ease-in-out top;
-  left:               0;
-}
-.carousel.vertical .active,
-.carousel.vertical .next.left,
-.carousel.vertical .prev.right    { top:     0; }
-.carousel.vertical .next,
-.carousel.vertical .active.right  { top:  100%; }
-.carousel.vertical .prev,
-.carousel.vertical .active.left   { top: -100%; }        
+   div.gallery:hover {
+     border: 1px solid #777;
+   }
+
+   div.gallery img {
+     width: 100%;
+     height: auto;
+   }
+
+   div.desc {
+     height: auto;
+     padding: 15px;
+     text-align: center;
+   }
+   /* ===================================== */
+   /* .carousel-inner img {
+     width: 100%;
+     height: 100%;
+   } */
+
+   /* Just for Example Purposes */
+
+   /* body {
+     background: #333
+   }
+
+   /* Vertical Carousel */
+/* 
+   .vertical .carousel-inner {
+     width: 100%;
+     height: 100%;
+   }
+
+   .carousel.vertical .carousel-item {
+     -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+     -ms-transition: 0.6s ease-in-out top;
+     -o-transition: 0.6s ease-in-out top;
+     transition: 0.6s ease-in-out top;
+   }
+
+   .carousel.vertical .active {
+     top: 0;
+   }
+
+   .carousel.vertical .carousel-item-next {
+     top: 100%;
+   }
+
+   .carousel.vertical .carousel-item-prev {
+     top: -100%;
+   }
+
+   .carousel.vertical .carousel-item-next.carousel-item-left,
+   .carousel.vertical .carousel-item-prev.carousel-item-right {
+     top: 0;
+   }
+
+   .carousel.vertical .active.carousel-item-left {
+     top: -100%;
+   } */ 
