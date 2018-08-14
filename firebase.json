@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/periodico",
+    "public": "dist/periodico",   
     "ignore": [
       "firebase.json",
       "**/.*",
