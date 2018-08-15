@@ -1,9 +1,24 @@
 footer{
     width: 100%;
     height: 60px;
-    background-color:grey;
+    background-color: #4B515D;
     color:white;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+a:hoover{
+color: white;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: #f10b0b;
+
+}
+a:active{
+    color: rgb(75, 71, 71);
+    
 }

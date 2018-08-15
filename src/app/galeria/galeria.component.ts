@@ -11,9 +11,8 @@ export class GaleriaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $('#bs4-vertical-slide-carousel').carousel({
-      interval: 1000
-    })
+  
+    
   }
 
 }
